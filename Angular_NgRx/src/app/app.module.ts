@@ -8,6 +8,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { CounterComponent } from './counter/counter.component';
 import { HeaderComponent } from './header/header.component';
 import { CounterValueComponent } from './counter/counter-value/counter-value.component';
+import { CounterButtonComponent } from './counter/counter-button/counter-button.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CounterValueComponent } from './counter/counter-value/counter-value.com
     CoursesComponent,
     CounterComponent,
     HeaderComponent,
-    CounterValueComponent
+    CounterValueComponent,
+    CounterButtonComponent
   ],
   imports: [
     BrowserModule,

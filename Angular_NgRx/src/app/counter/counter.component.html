@@ -2,5 +2,11 @@
 <div class="app-counter-container">
     <div class="app-counter">
         <!-- CHILD COMPONENTS GOES HERE -->
+        <app-counter-value [count]="counter"></app-counter-value>
+        <app-counter-button (counter)="changeValue($event)">
+            
+        </app-counter-button>
+
+
     </div>
 </div>
